@@ -1,0 +1,35 @@
+<div class="todo-list">
+  <h2>Lista de Tareas</h2>
+
+
+  <div>
+    <input [(ngModel)]="nuevaTarea" placeholder="Nueva tarea" />
+    <button (click)="agregarTarea()">Agregar Tarea</button>
+  </div>
+
+  <hr>
+
+
+  <div>
+    <h3>Tareas Pendientes</h3>
+    <ul>
+      <li *ngFor="let tarea of tareasPendientes">
+        <input type="checkbox" [(ngModel)]="tarea.check" /> {{ tarea.title }}
+        <span>{{ tarea.date }}</span>
+        <p>{{ tarea.description }}</p>
+      </li>
+    </ul>
+  </div>
+
+
+  <div>
+    <h3>Tareas Completadas</h3>
+    <ul>
+      <li *ngFor="let tarea of tareasCompletadas">
+        <input type="checkbox" [(ngModel)]="tarea.check" checked /> {{ tarea.title }}
+        <span>{{ tarea.date }}</span>
+        <p>{{ tarea.description }}</p>
+      </li>
+    </ul>
+  </div>
+</div>

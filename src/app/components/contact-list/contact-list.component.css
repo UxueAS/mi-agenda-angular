@@ -1,0 +1,17 @@
+.contacts {
+  padding: 20px;
+}
+
+.contacts h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contacts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts li {
+  padding: 5px 0;
+}

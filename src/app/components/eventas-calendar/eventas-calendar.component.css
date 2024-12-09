@@ -1,0 +1,15 @@
+.events-calendar {
+  padding: 20px;
+}
+
+.event {
+  margin-bottom: 20px;
+}
+
+.event h2 {
+  margin: 0;
+}
+
+.event p {
+  margin: 5px 0;
+}
