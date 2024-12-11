@@ -1,17 +1,44 @@
 .contacts {
-  padding: 20px;
-}
+  padding: 10px;
 
-.contacts h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-family: 'courier', 'Georgia', serif;
+  font-weight: 600;
+  margin: 10px;
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 6px 2px 5px rgba(0, 0, 0, 0.374);
+  background-color: #a4b8aba0;
 }
 
 .contacts ul {
-  list-style-type: none;
-  padding: 0;
+  list-style: disc;
+  margin: 5px 10px;
+  margin-top: 20px;
 }
 
 .contacts li {
-  padding: 5px 0;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  color: #4a4a4a;
+
+}
+
+
+.contacts h2 {
+  color: #7e7666;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e0dad180;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+.contacts ul li:hover {
+  color: #c28d42;
+  text-decoration: underline;
 }

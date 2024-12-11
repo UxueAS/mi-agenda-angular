@@ -1,13 +1,23 @@
 <div class="events-calendar">
-  <h2>Calendario</h2>
+  <h2 class="title">CALENDARIO</h2>
+  <div class="calendario">
+    <div class="container text-center">
+      <br>
+      <div class="row">
+        <div class="col-sm-8" id="days">
+          <full-calendar [options]="calendarOptions">
+          </full-calendar>
+        </div>
 
+        <div class="col-sm-4" id="task">
+          <div *ngFor="let event of events" class="event">
+            <h4>{{ event.title }}</h4>
+            <p>{{ event.date }}</p>
+          </div>
 
-  <full-calendar [options]="calendarOptions"></full-calendar>
-
-
-  <div *ngFor="let event of events" class="event">
-    <h2>{{ event.title }}</h2>
-    <p>{{ event.date }}</p>
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>

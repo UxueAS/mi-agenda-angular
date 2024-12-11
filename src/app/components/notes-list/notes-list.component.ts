@@ -10,8 +10,9 @@ import { CommonModule } from '@angular/common';
 })
 export class NotesListComponent {
   notes = [
-    { id: 1, content: 'Note 1' },
-    { id: 2, content: 'Note 2' },
-    { id: 3, content: 'Note 3' }
+    { id: 1, content: 'Nota 1' },
+    { id: 2, content: 'Nota 2' },
+    { id: 3, content: 'Nota 3' },
+    { id: 3, content: 'Nota 4' }
   ];
 }
