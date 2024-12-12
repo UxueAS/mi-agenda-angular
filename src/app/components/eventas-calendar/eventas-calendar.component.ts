@@ -12,11 +12,11 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 })
 export class EventsCalendarComponent {
   events = [
-    { date: '2024-12-10', title: 'Evento 1' },
-    { date: '2024-11-15', title: 'Evento 2' },
-    { date: '2024-12-25', title: 'Evento 3' },
-    { date: '2024-1-10', title: 'Evento 4' },
-    { date: '2024-2-15', title: 'Evento 5' },
+    { date: '2023-12-10', title: 'Evento 1' },
+    { date: '2023-11-15', title: 'Evento 2' },
+    { date: '2022-12-25', title: 'Evento 3' },
+    { date: '2022-1-10', title: 'Evento 4' },
+    { date: '2022-2-15', title: 'Evento 5' },
 
   ];
 
