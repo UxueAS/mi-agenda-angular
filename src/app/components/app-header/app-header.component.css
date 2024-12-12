@@ -1,11 +1,11 @@
-header {
+.container-fluid {
   background-color: #a4b8aba0;
   padding: 20px;
   text-align: center;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.379);
 }
 
-header h1 {
+h1 {
   font-family: 'courier', 'Georgia', serif;
   color: #495f50;
 
